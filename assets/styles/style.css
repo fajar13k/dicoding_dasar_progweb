@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #020C13;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  background-color: #052339;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #052339;
+  text-align: center;
+  font-weight: bold;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+textarea {
+  background: #062337;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 0;
+  color: #fff;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+textarea:focus {
+  border-bottom: 4px solid #44CE87;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+h2, h3, .text-tile {
+  color: #44CE87;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-left th {
+  padding-right: 1em;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background: rgb(5,35,57);
+  background: linear-gradient(0deg, rgba(5,35,57,1) 0%, rgba(6,45,72,1) 25%, rgba(16,152,180,1) 100%);
+  text-align: center;
+  color: white;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.card {
+  background: #041725;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.first {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.button {
+  background: #44CE87;
+  border: 0;
+  border-radius: 2em;
+  color: #052339;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 0.5px;
+  margin-left: 1em;
+  padding: 1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: #052339;
+  color: #44CE87;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+
+  .button {
+    margin-left: 0;
+    margin-bottom: 1em;
+  }
+}
