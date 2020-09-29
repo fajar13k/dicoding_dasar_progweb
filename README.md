@@ -4,6 +4,8 @@ Final submission for [Dicoding's "Belajar Dasar Pemrograman Web" Programming Cou
 
 ## Preview
 
+Live preview can be accessed through [this link](https://fajar13k.github.io/dicoding_dasar_progweb/)
+
 ![preview-page](assets/image/preview.png)
 
 ## Used
